@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #5b7473 url("images/perla-intro_1-scaled.jpeg") bottom left;
+		background: #5b7473 url("images/Perla\ Homes\ Photo.jpg") bottom;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -584,7 +584,7 @@ input, select, textarea {
 				-ms-transform: translate3d(0,0,0);
 				transform: translate3d(0,0,0);
 				display: inline-block;
-				height: 5.35em;
+				height: 10.35em;
 				line-height: 5.885em;
 				opacity: 0;
 				position: relative;
@@ -1079,3 +1079,10 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+		#logo {
+			display: block;
+			margin: 0 auto; /* Center the logo */
+			max-width: 250px; /* Adjust the size as needed */
+			height: auto; /* Keep the aspect ratio intact */
+		}
